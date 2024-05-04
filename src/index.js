@@ -21,6 +21,7 @@ const app = express();
 
 // Middleware
 // Use middleware
+
 app.use(middleware.parseJson);
 app.use(middleware.handleCors);
 app.use(middleware.secureHeaders);
